@@ -2,6 +2,11 @@
 
 This repo is showing the development of a simple Machine Learning application for Classifying the diferents Iris flower species.
 
+model.py —  contains code for the machine learning model.
+app.py —  contains Flask APIs that receives data through GUI or API calls, computes the predicted value based on our model and returns it.
+request.py — This uses requests module to call APIs defined in app.py and give the returned value.
+HTML/CSS — GUI part
+
 
 # Results
 Run the web application using the command :
